@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576259785458",
+    "project_id": "expenseplan-7a219",
+    "storage_bucket": "expenseplan-7a219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576259785458:android:bbd4d3016118efc70b066b",
+        "android_client_info": {
+          "package_name": "com.example.expenseplan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3KoFKm_XpGy87T6HPJ4KICQ-qH5uBuHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

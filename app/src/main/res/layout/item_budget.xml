@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/edittext"
+    android:padding="8dp">
+
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+     <TextView
+         android:id="@+id/tv_item"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="32dp"
+         android:layout_marginTop="16dp"
+         android:layout_weight="1"
+         android:text="Grocery"
+         android:textSize="18dp"
+         android:textStyle="bold"
+         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <TextView
+         android:id="@+id/tv_price"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="32dp"
+         android:layout_marginTop="4dp"
+         android:layout_weight="1"
+         android:text="$10.00"
+         android:textSize="17sp"
+         android:textStyle="bold"
+         android:textColor="@color/blue"
+         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/tv_item"
+         app:layout_constraintVertical_bias="0.194" />
+
+     <TextView
+         android:id="@+id/tv_type"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="36dp"
+         android:text="expense"
+         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+ </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
